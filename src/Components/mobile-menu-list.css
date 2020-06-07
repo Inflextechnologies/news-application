@@ -1,0 +1,26 @@
+.mobile-menu-list{
+    width: 100%;
+    transition: 200ms;
+    position: fixed;
+    top: 90px;
+    background-color: #fbfcfd;
+    z-index: 1;
+}
+.mobile-menu-list ul li{
+    list-style-type: none;
+    font-size: 1.2em;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    width: 85%;
+    transition: 1s;
+}
+
+.link{
+    color: #3a454e;
+}
+
+@media(min-width: 690px){
+    .mobile-menu-list{
+        display: none;
+    }
+}
